@@ -7780,7 +7780,7 @@ h1, h2, h3, h4, h5,
   .pricing-entry p .price {
     font-weight: 400;
     font-size: 20px;
-    color:black; }
+    }
   .pricing-entry p .per {
     font-size: 12px;
     color: #000000; }
@@ -7790,11 +7790,11 @@ h1, h2, h3, h4, h5,
     .pricing-entry ul li {
       list-style: none;
       padding: 10px 20px;
-      color:#000000;
+      color:black !important;
        }
       .pricing-entry ul li:nth-child(odd) {
         background: #fafafa;
-        color: #000000; }
+        color:black; }
   .pricing-entry .button {
     position: absolute;
     bottom: -26px;
